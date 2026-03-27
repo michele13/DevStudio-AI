@@ -4,14 +4,21 @@
 
 # DevStudio-AI
 
-Preview the app: https://venerable-torte-afdd66.netlify.app/
-View your app in AI Studio: https://ai.studio/apps/3bac7e82-c7a2-4f53-973b-ca372b8df60b
+- Preview the app: https://venerable-torte-afdd66.netlify.app/
+- View your app in AI Studio: https://ai.studio/apps/3bac7e82-c7a2-4f53-973b-ca372b8df60b
 
-## Introduction from the author
+### Authors
 
-My name is Michele Bucca (michele.bucca@gmail.com) and this App has been vibe-coded using Google AI Studio and fixed by the netlify agent so that it doesn't leak my GOOGLE API KEYS. Please don't abuse the service! 
+- Michele Bucca (michele.bucca@gmail.com)
 
-The app is splitted into frontend and backend
+## Introduction
+
+Hi, this App is an IDE for frontend development. Of course this does not prevent you from using it for other purposes. It has been vibe-coded using [Google AI Studio](https://aistudio.google.com) and fixed by the [Netlify Agent](https://www.netlify.com) so that it doesn't leak my GEMINI API keys in the code
+
+> [!CAUTION]
+> This App includes an AI Chatbot that uses my free GEMINI API KEY  Please, be kind and don't abuse the service! 
+
+The app is splitted between frontend and backend
 
 **Backend:** `src/services/`
 **Frontend:** `/index.html`, `src/components/`, `src/App.tsx`, etc
