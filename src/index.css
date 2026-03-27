@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  .markdown-body {
+    @apply text-slate-800 leading-relaxed;
+  }
+  .markdown-body h1 {
+    @apply text-3xl font-bold border-b pb-2 mb-4 mt-8;
+  }
+  .markdown-body h2 {
+    @apply text-2xl font-semibold border-b pb-2 mb-4 mt-6;
+  }
+  .markdown-body h3 {
+    @apply text-xl font-semibold mb-3 mt-5;
+  }
+  .markdown-body p {
+    @apply mb-4;
+  }
+  .markdown-body ul {
+    @apply list-disc pl-6 mb-4;
+  }
+  .markdown-body ol {
+    @apply list-decimal pl-6 mb-4;
+  }
+  .markdown-body li {
+    @apply mb-1;
+  }
+  .markdown-body code {
+    @apply bg-slate-100 px-1.5 py-0.5 rounded font-mono text-sm text-pink-600;
+  }
+  .markdown-body pre {
+    @apply bg-slate-900 text-slate-100 p-4 rounded-lg overflow-x-auto mb-4 font-mono text-sm;
+  }
+  .markdown-body blockquote {
+    @apply border-l-4 border-slate-200 pl-4 italic text-slate-600 mb-4;
+  }
+  .markdown-body table {
+    @apply w-full border-collapse mb-4;
+  }
+  .markdown-body th, .markdown-body td {
+    @apply border border-slate-200 p-2 text-left;
+  }
+  .markdown-body th {
+    @apply bg-slate-50 font-semibold;
+  }
+  .markdown-body img {
+    @apply max-w-full h-auto rounded-lg mb-4;
+  }
+  .markdown-body hr {
+    @apply my-8 border-slate-200;
+  }
+  .markdown-body a {
+    @apply text-blue-600 hover:underline;
+  }
+}

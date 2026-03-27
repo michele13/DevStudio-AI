@@ -1,0 +1,5 @@
+{
+  "name": "DevStudio AI",
+  "description": "A full-featured web IDE with integrated Git versioning and an AI chatbot that can directly modify your project files.",
+  "requestFramePermissions": []
+}
